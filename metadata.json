@@ -1,6 +1,8 @@
 {
-  "name": "",
-  "description": "",
+  "name": "GATEKEEPERS CONFERENCE",
+  "description": "Guarding the Soul of the Nation: Accountability in Leadership. Official website for the Gatekeepers Conference.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

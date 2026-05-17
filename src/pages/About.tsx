@@ -11,6 +11,9 @@ export function About() {
             src="/about.png" 
             alt="About the Conference Background" 
             className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="sync"
           />
           <div className="absolute inset-0 bg-black/60"></div>
           {/* Gradient to transition softly to next section */}

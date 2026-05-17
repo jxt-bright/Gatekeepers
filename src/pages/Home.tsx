@@ -61,7 +61,7 @@ export function Home() {
             <div className="marquee-images-content gap-4 md:gap-8 px-4 items-center">
               {[...galleryImages, ...galleryImages].map((img, i) => (
                 <div key={i} className={`${img.className} ${img.heightClass || 'h-64 md:h-80'} bg-surface-variant/20 rounded-lg overflow-hidden shrink-0 shadow-xl border border-secondary/20`}>
-                  <img alt={`Gallery ${i}`} className="w-full h-full object-cover object-top" src={img.src} />
+                  <img alt={`Gallery ${i}`} className="w-full h-full object-cover object-top" src={img.src} loading="eager" fetchPriority="high" decoding="sync" />
                 </div>
               ))}
             </div>
